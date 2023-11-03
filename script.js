@@ -3,6 +3,14 @@
 // console.log(`test`);
 //Create a platform using JS for freelance workers to advertise services
 //using DOM elements ensure "document.querySelector is used"
+//create title named "Freelancer Forum"
+const title = document.createElement(`h1`);{
+  title.textContent = `Freelancer Forum`;
+};
+console.log(title);
+//below the title create a line of text with "The average starting price is ${average price}"
+//create a second const with "Available Freelancers"
+//create a column for "Name (bold)", "Occupation (bold)", and "Starting Price (bold)"
 //create arrays for the names and occupations
 
 //initialize an array of possible names and occupations
