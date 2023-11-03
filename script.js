@@ -48,6 +48,10 @@ body.appendChild(avgPriceElement);
 console.log(avgPriceElement);
 
 //create a second const with "Available Freelancers"
+const availFreelancers = document.createElement("section");
+body.appendChild(availFreelancers);
+console.log(availFreelancers);
+
 //create a column for "Name (bold)", "Occupation (bold)", and "Starting Price (bold)"
 //create arrays for the names and occupations
 
