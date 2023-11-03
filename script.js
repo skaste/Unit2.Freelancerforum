@@ -62,7 +62,10 @@ const tblHeaders = [ "Name", "Occupation", "Starting Price"];
 const tableHeaderRow = document.createElement("tr");
 //append to browser
 table.appendChild(tableHeaderRow);
-console.log(tableHeaderRow)
+console.log(tableHeaderRow);
+
+//place table header text into the table header rows
+tblHeaders.forEach() => {}
 //create arrays for the names and occupations
 
 //initialize an array of possible names and occupations
