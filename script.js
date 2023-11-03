@@ -93,7 +93,7 @@ freelancers.forEach((freelancer) => {
 table.setAttribute("style", "border: black 5px solid; margin: 10px;" );
 // .getElementsByName("priceBlock").style.textAlign = "right";
 // document.getElementsByTagName("priceBlock").style.textAlign="right";
-body.setAttribute("style", "max-width: 300px; border: peru 10px solid; margin: 15px;");
+body.setAttribute("style", "max-width: 300px; max-height: 375px; border: peru 10px solid; padding: 10px; margin: 15px;");
 body.h1.setAttribute("style", "text-align: center;");
 
 
