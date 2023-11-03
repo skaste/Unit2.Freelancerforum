@@ -52,6 +52,10 @@ const availFreelancers = document.createElement("section");
 body.appendChild(availFreelancers);
 console.log(availFreelancers);
 
+//create a table using "th" (table headers), "td" (table data), "tr" (table row), etc
+const table = document.createElement("table");
+availFreelancers.appendChild(table);
+console.log(table);
 //create a column for "Name (bold)", "Occupation (bold)", and "Starting Price (bold)"
 //create arrays for the names and occupations
 
