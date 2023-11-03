@@ -76,6 +76,11 @@ freelancers.forEach((freelancer) => {
   const row=document.createElement("tr");
   table.appendChild(row);
   console.log(row);
+
+  const nameBlock = document.createElement("td");
+  nameBlock.textContent = freelancer.name;
+  row.appendChild(nameBlock);
+  
 })
 
 
