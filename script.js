@@ -4,10 +4,20 @@
 //Create a platform using JS for freelance workers to advertise services
 //using DOM elements ensure "document.querySelector is used"
 //create title named "Freelancer Forum"
+
+const body = document.querySelector("body");
 const title = document.createElement(`h1`);{
   title.textContent = `Freelancer Forum`;
 };
 console.log(title);
+// body.append(title);
+
+// const practice = document.querySelector("practice");
+// practice.textContent=`Hello World!`;
+// p.style.backgroundColor = "black";
+// p["style"].color = "white";
+// body.append(p);
+
 //below the title create a line of text with "The average starting price is ${average price}"
 //create a second const with "Available Freelancers"
 //create a column for "Name (bold)", "Occupation (bold)", and "Starting Price (bold)"
@@ -24,6 +34,7 @@ const freelancers = [
   { name: "Dr. Wire", price: 47, occupation: "teacher" },
   { name: "Prof. Goose", price: 72, occupation: "driver" },
 ];
+console.log(freelancers);
 
 
 //Program initializes an array of freelancers with names, occupations, and starting prices
