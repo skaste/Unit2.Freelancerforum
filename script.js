@@ -70,9 +70,14 @@ tblHeaders.forEach((headerText) => {
   th.textContent = headerText;
   tableHeaderRow.appendChild(th);
 });
-//create arrays for the names and occupations
+//create rows in the table to place array items in
+//seperate the array items into individual rows
+freelancers.forEach((freelancer) => {
+  const row=document.createElement("tr");
+  table.appendChild(row);
+  console.log(row);
+})
 
-//initialize an array of possible names and occupations
 
 //Program initializes an array of freelancers with names, occupations, and starting prices
   //Test code
