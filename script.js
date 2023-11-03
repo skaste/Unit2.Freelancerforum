@@ -5,6 +5,7 @@
 console.log(window.document);
 console.log(document.body);
 console.log(document.head);
+// console.log(document.body.children);
 //Create a platform using JS for freelance workers to advertise services
 //using DOM elements ensure "document.querySelector is used"
 //create title named "Freelancer Forum"
@@ -13,8 +14,9 @@ const body = document.querySelector("body");
 const title = document.createElement(`h1`);{
   title.textContent = `Freelancer Forum`;
 };
+body.append(title);
 console.log(title);
-// body.append(title);
+
 
 // const practice = document.querySelector("practice");
 // practice.textContent=`Hello World!`;
