@@ -28,6 +28,7 @@ const title = document.createElement(`h1`);{
 };
 body.append(title);
 console.log(title);
+const priceBlock = document.querySelector("priceBlock");
 
 
 //below the title create a line of text with "The average starting price is ${average price}"
@@ -92,6 +93,8 @@ freelancers.forEach((freelancer) => {
 table.setAttribute("style", "border: black 5px solid; margin: 10px;" )
 // .getElementsByName("priceBlock").style.textAlign = "right";
 // document.getElementsByTagName("priceBlock").style.textAlign="right";
+body.setAttribute("style", "max-width: 300px; border: peru 10px solid; margin: 15px;")
+
 
 
 //Program initializes an array of freelancers with names, occupations, and starting prices
