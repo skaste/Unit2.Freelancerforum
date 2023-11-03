@@ -5,31 +5,11 @@
 console.log(window.document);
 console.log(document.body);
 console.log(document.head);
-// console.log(document.body.children);
+console.log(document.body.children);
 //Create a platform using JS for freelance workers to advertise services
 //using DOM elements ensure "document.querySelector is used"
 //create title named "Freelancer Forum"
 
-const body = document.querySelector("body");
-const title = document.createElement(`h1`);{
-  title.textContent = `Freelancer Forum`;
-};
-body.append(title);
-console.log(title);
-
-
-// const practice = document.querySelector("practice");
-// practice.textContent=`Hello World!`;
-// p.style.backgroundColor = "black";
-// p["style"].color = "white";
-// body.append(p);
-
-//below the title create a line of text with "The average starting price is ${average price}"
-//create a second const with "Available Freelancers"
-//create a column for "Name (bold)", "Occupation (bold)", and "Starting Price (bold)"
-//create arrays for the names and occupations
-
-//initialize an array of possible names and occupations
 const freelancers = [
   { name: "Dr. Slice", price: 25, occupation: "gardener" },
   { name: "Dr. Pressure", price: 51, occupation: "programmer" },
@@ -42,6 +22,24 @@ const freelancers = [
 ];
 console.log(freelancers);
 
+const body = document.querySelector("body");
+const title = document.createElement(`h1`);{
+  title.textContent = `Freelancer Forum`;
+};
+body.append(title);
+console.log(title);
+
+
+//below the title create a line of text with "The average starting price is ${average price}"
+const avgPrice =freelancers.reduce(
+  (acc, freelancer) =>acc + freelancer.price, 0);
+console.log(avgPrice);
+
+//create a second const with "Available Freelancers"
+//create a column for "Name (bold)", "Occupation (bold)", and "Starting Price (bold)"
+//create arrays for the names and occupations
+
+//initialize an array of possible names and occupations
 
 //Program initializes an array of freelancers with names, occupations, and starting prices
   //Test code
