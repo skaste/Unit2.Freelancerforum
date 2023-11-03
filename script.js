@@ -31,9 +31,14 @@ console.log(title);
 
 
 //below the title create a line of text with "The average starting price is ${average price}"
-const avgPrice =freelancers.reduce(
-  (acc, freelancer) =>acc + freelancer.price, 0);
+const totalPrice =freelancers.reduce(
+  (acc, freelancer) =>acc + freelancer.price, 0); 
+console.log(totalPrice);
+
+const avgPrice = totalPrice / freelancers.length;
 console.log(avgPrice);
+
+
 
 //create a second const with "Available Freelancers"
 //create a column for "Name (bold)", "Occupation (bold)", and "Starting Price (bold)"
