@@ -41,6 +41,11 @@ console.log(avgPrice);
 //display the average starting price
 const avgPriceText = `The average starting price is $${avgPrice.toFixed(2)}`;
 console.log(avgPriceText);
+//display average price using .createElement
+const avgPriceElement = document.createElement("p");
+avgPriceElement.textContent=avgPriceText;
+body.appendChild(avgPriceElement);
+console.log(avgPriceElement);
 
 //create a second const with "Available Freelancers"
 //create a column for "Name (bold)", "Occupation (bold)", and "Starting Price (bold)"
