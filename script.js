@@ -56,7 +56,9 @@ console.log(availFreelancers);
 const table = document.createElement("table");
 availFreelancers.appendChild(table);
 console.log(table);
-//create a column for "Name (bold)", "Occupation (bold)", and "Starting Price (bold)"
+//create a column for "Name (bold)", "Occupation (bold)", and "Starting Price (bold)" using an array
+const tblHeaders = [ "Name", "Occupation", "Starting Price"];
+console.log(tblHeaders);
 //create arrays for the names and occupations
 
 //initialize an array of possible names and occupations
