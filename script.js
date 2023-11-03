@@ -97,6 +97,8 @@ body.setAttribute("style", "max-width: 300px; max-height: 375px; border: peru 10
 body.h1.setAttribute("style", "text-align: center;");
 
 
+//****upper case first letter in occupation/driving me nuts ****/
+
 //Program initializes an array of freelancers with names, occupations, and starting prices
   //Test code
 //initial array of freelancers is rendered to the HTML page from JS
