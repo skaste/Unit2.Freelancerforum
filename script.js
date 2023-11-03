@@ -65,7 +65,11 @@ table.appendChild(tableHeaderRow);
 console.log(tableHeaderRow);
 
 //place table header text into the table header rows
-tblHeaders.forEach() => {}
+tblHeaders.forEach((headerText) => {
+  const th = document.createElement("th");
+  th.textContent = headerText;
+  tableHeaderRow.appendChild(th);
+});
 //create arrays for the names and occupations
 
 //initialize an array of possible names and occupations
