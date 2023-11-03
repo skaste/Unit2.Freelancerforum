@@ -89,6 +89,9 @@ freelancers.forEach((freelancer) => {
   priceBlock.textContent = ((`$`) + freelancer.price);
   row.appendChild(priceBlock);
 });
+table.setAttribute("style", "border: black 5px solid; margin: 10px;" )
+// .getElementsByName("priceBlock").style.textAlign = "right";
+// document.getElementsByTagName("priceBlock").style.textAlign="right";
 
 
 //Program initializes an array of freelancers with names, occupations, and starting prices
