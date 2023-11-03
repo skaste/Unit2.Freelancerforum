@@ -80,8 +80,15 @@ freelancers.forEach((freelancer) => {
   const nameBlock = document.createElement("td");
   nameBlock.textContent = freelancer.name;
   row.appendChild(nameBlock);
-  
-})
+
+  const occBlock = document.createElement("td");
+  occBlock.textContent = freelancer.occupation;
+  row.appendChild(occBlock);
+
+  const priceBlock = document.createElement("td");
+  priceBlock.textContent = ((`$`) + freelancer.price);
+  row.appendChild(priceBlock);
+});
 
 
 //Program initializes an array of freelancers with names, occupations, and starting prices
