@@ -38,7 +38,9 @@ console.log(totalPrice);
 const avgPrice = totalPrice / freelancers.length;
 console.log(avgPrice);
 
-
+//display the average starting price
+const avgPriceText = `The average starting price is $${avgPrice.toFixed(2)}`;
+console.log(avgPriceText);
 
 //create a second const with "Available Freelancers"
 //create a column for "Name (bold)", "Occupation (bold)", and "Starting Price (bold)"
