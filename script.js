@@ -17,7 +17,12 @@ const freelancers = [
   { name: "Prof. Goose", price: 72, occupation: "driver" },
 ];
 
-//need to create a function that determines the average price of freelanceers
 
 //Program initializes an array of freelancers with names, occupations, and starting prices
+  //Test code
 //initial array of freelancers is rendered to the HTML page from JS
+  //Test code
+//need to create a function that determines the average price of freelanceers
+  //Test code
+//clean up code and make more readable
+  //Test code
