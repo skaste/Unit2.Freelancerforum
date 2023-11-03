@@ -1,6 +1,10 @@
 //create new repository and clone from GitHub that contains an HTML and JS file
 //connect the script.js to index.html
 // console.log(`test`);
+//console.log the body and head of document so you can see it in console
+console.log(window.document);
+console.log(document.body);
+console.log(document.head);
 //Create a platform using JS for freelance workers to advertise services
 //using DOM elements ensure "document.querySelector is used"
 //create title named "Freelancer Forum"
